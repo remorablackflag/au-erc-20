@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# ERC-20 token + Bucket Challenge
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+[Alchemy University](https://university.alchemy.com)'s Ethereum Developer Bootcamp Week6 tasks:
 
-Try running some of the following tasks:
+- ERC-20 token deployed on Görli: https://goerli.etherscan.io/tx/0xe6f3636da100a2a1d523edd7aa0fa8cac77a913b1e9bb30af67d95f40be89c51
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+- `approve_transfer.js` is the solution of the "Bucket Challenge", so the contract addresses of the deployed contract and the Bucket contract are hardcoded in the file
+
+    Usage (in project root):
+
+        $ npx hardhat run scripts/approve_transfer.js
+
+    Winner transaction: https://goerli.etherscan.io/tx/0xe6f3636da100a2a1d523edd7aa0fa8cac77a913b1e9bb30af67d95f40be89c51
